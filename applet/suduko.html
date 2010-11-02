@@ -1,0 +1,70 @@
+<html>
+<head><title>Suduko Solver Code Competition</title></head>
+
+<body background=white text=black>
+
+<table align=center>
+  <tr>
+    <td align=center>
+      <center><h2>Suduko Solver Applet</h2></center>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <font face="arial,helvetica" size="-1">
+      <ul>
+        <h3>How to use the Applet:</h3>
+        <li>Enter a <a href=#suduko>Suduko</a> puzzle below and press "Solve" to solve the puzzle.</li>
+        <li><i>Coming soon</i>: Press "Generate" to create a new puzzle.</li>
+        <li>Press "Clear" to clear the puzzle and start over.</li>
+        <li>Press "Validate" to verify that the board contains a valid solution.</li>
+        <br>
+        <li>To load a sample puzzle, select the sample and press "Load Sample".</li>
+        <li>To load the solution of a sample puzzle, select the sample and press "Load Solution".</li>
+        <li>To compare the current board to the solution of a sample puzzle,
+          <br> select the sample and press "Compare to Solution".</li>
+        <br>
+        <li>To use a different solver algoritm, select the desired algorithm before pressing "Solve".</li>
+        <br>
+        <li>The current version of the applet is <b>v1.2c</b>. Please verify that this version of
+          <br> the applet is running below. If not, your browser may have cached an older version.</li>
+      </ul>
+      </font>
+      <br>
+    </td>
+  </tr>
+  <tr>
+    <td align=center>
+      <applet code="Suduko.class" archive="SudukoApplet.jar" height=710 width=355></applet></center>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <br>
+      <a name=suduko>
+      <font face="arial,helvetica" size="-1">
+      <h3>What is Suduko (or Sudoku)?</h3>
+      Here are some links:
+      <ul>
+        <li><a href=http://www.soduko.org/ >Soduko Shack</a></li>
+        <li><a href=http://suduko.org.uk/>Guy's Suduko Solver</a></li>
+        <li><a href=http://www.sudukogame.com/>Suduko - the best Suduko game</a></li>
+        <li><a href=http://www.sodoku.com>Sudoku</a></li>
+      </ul>
+      And here is a summary of the rules:
+      <ul>
+        <li>The playing board consists of 81 cells, arranged in 9 rows and nine columns.</li>
+        <li>Since the board measures 9x9 cells, it can also be grouped into 9 squares, each with 9 cells.</li>
+        <li>Each cell is a member of a row, a column, and a square.</li>
+        <li>When the puzzle is solved, each cell must have a digit in it.  Valid digits are 1-9.</li>
+        <li>For each cell, its digit may not be repeated in any other cell in the same row, column, or square.</li>
+        <li>Puzzles may have many empty squares, in which you attempt to place the correct digit.</li>
+      </ul>
+      <br>
+      </font>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>
