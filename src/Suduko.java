@@ -449,7 +449,7 @@ public class Suduko extends Applet implements ActionListener, KeyListener, Focus
     //  1. increment numSolvers
     //  2. instantiate your Solver as the least entry in the array
     //*****************************
-    numSolvers = 4;
+    numSolvers = 5;
 
     // Jay Allison
     solverArray = new Solver[numSolvers];
@@ -469,6 +469,8 @@ public class Suduko extends Applet implements ActionListener, KeyListener, Focus
     solverArray[3].setSolverGui(this);
     
     // Nick Robinson
+    solverArray[4] = new NRSolver();
+    solverArray[4].setSolverGui(this);
     
     //*****************************
 

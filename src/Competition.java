@@ -155,13 +155,14 @@ class Judge implements SolverGui
     numSamples = 4;
 
     // instantiate solvers
-    numSolvers = 4;
+    numSolvers = 5;
     solverArray = new Solver[numSolvers];
     int index = 0;
     solverArray[index++] = new JSolver();
     solverArray[index++] = new DaveSudukoSolver();
     solverArray[index++] = new PriddyGoodSolver();
     solverArray[index++] = new AplSolver();
+    solverArray[index++] = new NRSolver();
 
     // allocate storage for results and initialize it
     min = new long[numSolvers][numSamples];
